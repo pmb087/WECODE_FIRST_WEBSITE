@@ -118,6 +118,7 @@
       document.querySelector('.position-inner').style.height = "10vh"
       document.querySelector('.position-inner').style.visibility = "visible"
       document.querySelector('.position-inner').innerHTML = "front-end"
+      document.querySelector('.position-inner').style.textAlign = 'center'
       document.querySelector('.position').style.backgroundColor = "#c68400"
       document.querySelector('.position').style.width = "20vw"
       document.querySelector('.position').style.borderRadius = "10px"   

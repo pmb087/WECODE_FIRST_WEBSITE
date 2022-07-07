@@ -66,7 +66,7 @@
 
       })
 
-      // Dark Mode
+      // Dark Mode function
 
       var darkModeCount = 0;
 

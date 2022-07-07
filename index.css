@@ -46,10 +46,41 @@ body
     letter-spacing: 4px;
 }
 
-.navbar-menu a
+#navbar-home
 {
     text-decoration: none;
     color: white;
+}
+
+#navbar-about
+{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar-link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.darkMode
+{
+    display: flex;
+    position: fixed;
+    background-color: #343434;
+    color: white;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    top: 93vh;
+    left: 92%;    
 }
 
 .scroll-container
@@ -212,7 +243,7 @@ body
 
 .name
 {
-    width: 15vw;
+    width: 20vw;
     transition: all 0.3s;
 }
 

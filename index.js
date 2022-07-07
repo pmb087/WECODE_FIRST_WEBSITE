@@ -1,4 +1,4 @@
-      // navbar move value
+      // navbar move values
 
       var location1 = document.querySelector('#page-1').offsetTop;
       var location2 = document.querySelector('#page-2').offsetTop;

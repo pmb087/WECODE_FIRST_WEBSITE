@@ -79,7 +79,7 @@
           document.querySelector('#navbar-link').style.color = "black";
           document.querySelector('.darkMode').style.backgroundColor = "white";
           document.querySelector('.darkMode').style.color = "#343434";
-          document.querySelector('.darkMode').style.border = "2px solid #343434";
+          document.querySelector('.darkMode').style.border = "2px solid black";
           document.querySelector('.darkMode span').innerHTML = "Light Mode";
           document.querySelector('#page-1').style.backgroundColor = "#212121"
           document.querySelector('#page-2').style.backgroundColor = "#484848"
@@ -113,6 +113,9 @@
           document.querySelector('.velog-link').style.backgroundColor = "#212121" 
           document.querySelector('.velog-link').style.border = "5px solid white"
           document.querySelector('.velog-link a').style.color = "white" 
+          document.querySelector('.scrollTop').style.backgroundColor = "white";
+          document.querySelector('.scrollTop').style.color = "#343434";
+          document.querySelector('.scrollTop').style.border = "2px solid black";
         } else if(darkModeCount == 1){
           darkModeCount = 0;
           document.querySelector('.navbar-container').style.backgroundColor = "black";
@@ -157,7 +160,16 @@
           document.querySelector('.velog-link').style.border = "5px solid #ffb300"
           document.querySelector('.velog-link a').style.color = "black" 
           document.querySelector('.phone-inner').style.color = "black"
+          document.querySelector('.scrollTop').style.backgroundColor = "#343434";
+          document.querySelector('.scrollTop').style.color = "white";
+          document.querySelector('.scrollTop').style.border = "2px solid white";
         }
+      })
+
+      // Scroll Top
+
+      document.querySelector('.scrollTop').addEventListener('click',function(){
+        window.scrollTo({top:location1, behavior:"smooth"});
       })
 
       // next button , previous button
